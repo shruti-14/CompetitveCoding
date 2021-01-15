@@ -22,7 +22,7 @@ function findRepeatingNum() {
     for(let i=0;i<input.length;i++) {
         
         input[input[i]%length] += length;
-        // console.log(input[i]%length, input[input[i]%length]);
+        console.log(input[i]%length, input[input[i]%length]);
     }
     console.log(input);
     for(let j=0;j<input.length;j++) {
@@ -30,6 +30,6 @@ function findRepeatingNum() {
             console.log(j);
         }
     }
-    // console.log(input);
+    console.log(input);
 }
 findRepeatingNum();
